@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for d:*)",
+      "Bash(do touch:*)",
+      "Bash(done)",
+      "Bash(pip install:*)",
+      "Bash(python main.py info)",
+      "Bash(python scripts/install_colmap.py)",
+      "Bash(curl -sL \"https://api.github.com/repos/colmap/colmap/releases/latest\")",
+      "Bash(mkdir -p colmap)",
+      "Bash(mv COLMAP.bat RUN_TESTS.bat bin plugins colmap/)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" help:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(python -c \"import cv2; import numpy; import PIL; import typer; import rich; print\\(''Core deps OK''\\)\")",
+      "Bash(python -c \":*)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" feature_extractor --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" exhaustive_matcher --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" sequential_matcher --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" model_analyzer --path \"D:/AI/Spatial-awareness/data/projects/test_001/colmap/sparse/0\")",
+      "Bash(for i:*)",
+      "Bash(do echo:*)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" model_merger --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" image_undistorter --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" patch_match_stereo --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" stereo_fusion --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" poisson_mesher --help)",
+      "Bash(\"D:/AI/Spatial-awareness/vendor/colmap/COLMAP.bat\" delaunay_mesher --help)",
+      "Bash(python -c \"import fastapi; import uvicorn; print\\(f''FastAPI {fastapi.__version__}, uvicorn OK''\\)\")",
+      "Bash(python main.py --help)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8888/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8888/api/projects)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:8889/api/projects)"
+    ]
+  }
+}
